@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表格基本结构</title>
+		<!--这里使用CSS为表格加上边框-->
+		<style type="text/css">
+			table,tr,td{border:1px solid silver;}
+			div{color: red;}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>
+					HTML
+				</td>
+				<td>CSS</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>jquery</td>
+			</tr>
+		</table>
+		<table>
+			<caption>考试成绩表</caption>
+			<tr>
+				<td>小明</td>
+				<td>80</td>
+				<td>80</td>
+				<td>80</td>
+			</tr>
+			<tr>
+				<td>小红</td>
+				<td>90</td>
+				<td>90</td>
+				<td>90</td>
+			</tr>
+		</table>
+			
+		</table>
+		<img src="img/00.jpg" alt=""/>
+		<a herf="http://www.lvyestudy.com"><img src="img/lvye.png"alt="绿叶学习网"/></a>
+		<form>
+			<input type="text" value="这是一个单行文本框"/><br/>
+			<textarea>这是一个多行文本框</textarea><br/>
+			<select>
+				<option>HTML</option>
+				<option>CSS</option>
+				<option>JAVSscript</option>
+			</select>
+		</form>
+		<form method="post">
+			姓名:<input type="text"/>
+			姓名:<input type="text" value="你好lpl"/>
+		</form>
+		<form method="post">
+			账号:<input type="text"/><br/>
+			密码:<input type="password"/><br/>
+			账号:<input type="password" size="15" maxlength="10"/>
+		</form>
+		<form method="post">
+			性别:
+			<input type="radio" name="gender"value="男" checked/>男
+			<input type="radio" name="gender"value="女"/>女
+		</form>
+		<div>绿叶，给你初恋般的感觉！</div>
+		<div>你好</div>
+		<div style="color: red;"> 你好</div>
+		<!--这里你好应该同为红色字体-->
+		<div class="content">存在即合理</div>
+		<p class="content">存在即合理<div>
+		<!--这里id只能针对同一个标签,即用div 不用p.而class 两个都管-->
+		<!--CSS选择器-->
+		<!--对于id选择器,id名前必须要加上前缀#,否则该选择器无法生效.在id名前加#表示这是一个id 选择器.而对于class选择器,必须加上前缀.(英文符号),否则无法生效,这表明是一个class选择器-->
+			
+		
+		
+		
+	</body>
+</html>
