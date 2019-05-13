@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+		<title>
+			古诗<!--你好美-->
+		</title>
+	</head>
+	<body>
+		<h1>这是一级标签</h1>
+		<h2>这是二级标签</h2>
+		<h3>这是三级标签</h3>
+		<h5>这是五级标签</h5>
+		<h6>这是六级标签</h6>
+		<h4>这是四级标签</h4>
+		<h2>这是一级标签</h2>
+		<h3>思故乡</h3>
+		<p>举头思明月，</p>
+		<p>低头思故乡！</p><!--p标签用来分段，br/用来换行-->
+		<p>举头望明月，<br/>低头思故乡！</p><!--这里是换行-->
+		<strong>举头望明月，加粗用strong</strong><br/>
+		<b>这也是加粗文本，亦可用b</b>
+		<em>这里是斜体标签，可用em亦可用i,cite</em>
+		<p>(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab,,,上标用sup</p>
+		<p>H<<sub>2</sub>SO<sub>4</sub>,,,下标用sub</p>
+		<p>删除线标签用s</p>
+		<p>新鲜的新西兰奇异果</p>
+		<p><s>原价:￥6.50/kg</s></p>
+		<p><strong>现在仅售：￥4.00/kg</strong></p>
+		<p><<ul>绿叶学习网</ul>是学习html的网站,,下划线标签用ul</p>
+		<p>普通字体文本</p>
+		<big>加大字体用big</big><br/>
+		<small>小号字体用small，这里用了br/换行了</small>
+		<h2>静夜思</h2>
+		<p>举头望明月，低头思故乡</p>
+		<hr/>
+		<h3>春晓</h3>
+		<p>春眠不知晓，花落知道少！，用了hr/标签来实现一条水平线。</p>
+		<ol>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>LPL<!--这里ol与li配合使用--></li>
+			<hr />
+		</ol>
+		<ol type="a">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>jQuery</li>
+			<li>Vue.js</li>
+			<!--这里是用字母a-z来表示序号，而不是出现的顺序-->
+			<!--ol是用来表示有序列表，无序列表则用ul来表示-->
+		</ol>
+		<p>无序列表（ul)的属性值可用实心圆（disc),空心圆（circle),正方形（square)来表示</p>
+		<dl>
+			<dt>HTML</dt>
+			<dd>制作网页的标准语言，控制网页的样式</dd>
+			<dt>CSS</dt>
+			<dd>层叠样式表，控制网页的样式</dd>
+			<dt>JavaScript</dt>
+			<dd>脚本语言，控制网页行为</dd>
+		</dl>
+	</body>
+</html>
