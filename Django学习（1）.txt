@@ -1,0 +1,29 @@
+一、安装python与下载Django压缩包
+1、Python 下载地址：https://www.python.org/downloads/
+      Django 下载地址：https://www.djangoproject.com/download/
+2、安装完成后你需要设置 Python 环境变量。 右击计算机->属性->高级->环境变量->修改系统变量 path，添加 Python 安装地址
+3、下载 Django 压缩包，解压并和Python安装目录放在同一个根目录，进入 Django 目录，执行python setup.py install，然后开始安装，Django将要被安装到Python的Lib下site-packages
+      （安装有anaconda的话，django将安装在anaconda\set-packages中？？）
+4、然后是配置环境变量，将这几个目录添加到系统环境变量中： C:\Python33\Lib\site-packages\django; C:\Python33\Scripts
+       （D:\Anaonda3\Lib\site-packages\Django-2.2.1-py3.6.egg\django）（D:\Anaonda3\Scripts）
+二、检查是否安装成功
+       >>python
+       >>import django
+       >>python -m django --version
+三、创建第一个django项目
+1、选择一个路径存放django的文件（例如testDjangoFeils），切换到testDjangoFeils路径下，命令django-admin startproject mysite创建一个一个mysite为名的Django项目。
+mysite/
+    manage.py
+    mysite/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+2、切换到mysite路径下，命令python manage.py runserver连接开发服务器，运行第一个Django项目。
+3、用pcharm打开这个文件
+四、Django常用命令
+1、新建一个django项目
+django-admin.py startprojet project_name
+2、新建一个app
+django-admin.py start app_name
+(django项目相当于一个公司，app相当于公司下的子公司)
